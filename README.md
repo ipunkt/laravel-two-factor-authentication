@@ -17,7 +17,7 @@ Just install the package by adding to composer requirements
 
 and add the Service Provider in your `config/app.php`
 
-	\Ipunkt\Laravel\TwoFactorAuthentication\ServiceProvider::class,
+	\Ipunkt\Laravel\TwoFactorAuthentication\TwoFactorAuthenticationServiceProvider::class,
 
 After adding the provider the database migration should run
 
