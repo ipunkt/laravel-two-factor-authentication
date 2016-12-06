@@ -20,7 +20,9 @@
 		"pragmarx/google2fa": "~1.0",
 		"paragonie/constant_time_encoding": "~2.0",
 		"bacon/bacon-qr-code": "~1.0",
-		"ipunkt/laravel-package-manager": "^0.2.0"
+		"ipunkt/laravel-package-manager": "^0.2.0",
+		"illuminate/database": "^5.3",
+		"illuminate/http": "^5.3"
 	},
 	"require-dev": {
 		"mockery/mockery": "~0.9",
