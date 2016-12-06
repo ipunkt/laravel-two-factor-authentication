@@ -4,9 +4,9 @@ namespace Ipunkt\Laravel\TwoFactorAuthentication\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\User;
-use DonePM\TwoFactorAuthentication\AuthenticatesWith2FA;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
+use Ipunkt\Laravel\TwoFactorAuthentication\AuthenticatesWith2FA;
 
 class Google2FAController extends Controller
 {
