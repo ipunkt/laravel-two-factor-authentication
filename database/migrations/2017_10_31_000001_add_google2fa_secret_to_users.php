@@ -14,7 +14,7 @@ class AddGoogle2faSecretToUsers extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('google2fa_secret')->nullable();
+            $table->string('google2fa_secret', 255)->nullable();
         });
     }
 
