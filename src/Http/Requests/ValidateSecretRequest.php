@@ -56,7 +56,8 @@ class ValidateSecretRequest extends FormRequest
     public function authorize()
     {
         try {
-            $this->user = User::findOrFail(session('2fa:user:id'));
+            $user_class = config('auth.providers.users.model');
+            $this->user = (new $user_class())->findOrFail(session('2fa:user:id'));
         } catch (Exception $exc) {
             return false;
         }
